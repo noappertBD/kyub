@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: rgb(255,87,0);
+background: linear-gradient(90deg, rgba(255,60,0,0.93) 0%, rgba(255,143,0,0.93) 100%);
+}
+
+.navbar-brand>b {
+    color: rgb(255,96,0);
+    font-size:larger;
+}
+
+svg {
+    margin-right: 3px;
+}
+
+a.openaccount {
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #212529;
+    border-width: 0px;
+}
+
+div.card {
+    border-radius: 0.7em;
+}
+
+acc{
+	color: rgb(255,96,0);
+}
+
+div.card{
+margin-top: 5vh;
+}
+
+@media screen and (max-width: 575px) {
+	div.card{
+ 	margin-top: 1.7vh;   
+}
+}
